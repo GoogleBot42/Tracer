@@ -1,0 +1,17 @@
+Small things
+- Create test for scene files
+- Fix small TODO's throughout code
+- Create smoke test for renderer
+- Use OpenCL optimized vector types
+- Tent filter
+
+Big things (milestones)
+- Realtime rendering
+    - optimize things
+    - partial rendering (collect pixel samples across multiple SYCL kernel runs)
+    - only copy to GPU changed data structures between frames
+- Model rendering
+    - Ray/Triangle intersection
+- BVH tree for rendering many primatives in scene
+- Minecraft world renderer (A nice practical application of the Tracer renderer)
+- None perfect diffuse/reflection/refraction

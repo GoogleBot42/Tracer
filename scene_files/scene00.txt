@@ -1,0 +1,11 @@
+# setup camera
+eye 50 50 220               # x,y,z of where the camera's eye is located
+look 50 50 50               # x,y,z of where the camera is looking
+up 0 1 0                    # up for the camera (is the camera upside down?)
+d 100                       # the focal length of the camera
+bounds -50 -37.5 50 37.5    # the bounds of the image plane (the size, in world coords, of the image)
+res 1024 768                # the resolution of the output image
+
+# glowing sphere in the scene
+#         x  y  z   r     emitted rgb    color rgb    material type
+sphere    50 50 50  10     12 12 12       0 0 0            0
