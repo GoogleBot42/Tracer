@@ -7,7 +7,7 @@ This is a GPU path tracer library running on top of SYCL. It aims to be simple, 
 ![Cornell Box like](scene_files/scene01.png)
 
 ##### To compile Tracer, you need:
-1. A SYCL implementation. [ComputeCpp CE](https://github.com/codeplaysoftware/computecpp-sdk) the is best one available currently so this is what Tracer uses.
+1. A SYCL implementation. [ComputeCpp CE](https://github.com/codeplaysoftware/computecpp-sdk) is best one available currently so this is what Tracer uses.
 2. CMake
 3. GoogleTest *(for building tests)*
 4. *(Prefered)* A OpenCL accelerated or CUDA device.
